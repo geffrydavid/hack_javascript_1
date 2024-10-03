@@ -7,7 +7,7 @@
  * output => ["Foo","Bar","Baz","Qux","Echo"]   
  */
 let arr = ["foo","bar","baz","qux","echo"];
-let result = [];
+let result = arr.map(item => item.charAt(0).toUpperCase() + item.slice(1));
 
 
 //export result
